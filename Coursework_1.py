@@ -117,7 +117,7 @@ elif way == 'GUI':
     root.geometry('820x700')
 
     image_path = ImageTk.PhotoImage(
-        Image.open("images/blue_abstract_background.png")
+        Image.open("blue_abstract_background.png")
     )
     background_image = tk.Label(root, image=image_path)
     background_image.place(x=0, y=0, relwidth=1, relheight=1)
